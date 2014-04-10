@@ -77,5 +77,9 @@ $( function(){
     $(".thumbnails").animate({ marginLeft: 0}, 1000);
   });
 
+  $(".loadingbar").ready(function() {
+    setTimeout(function() { $('.loadingbar').fadeOut(200); }, 1400);
+  });
+
 
 });

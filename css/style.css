@@ -235,6 +235,11 @@ textarea:focus, input:focus, button:focus {
   color: #B0B0B0;
 }
 
+.loadingbar {
+  height: 2px;
+  background: #60acf0;
+  margin-top: -1px;
+}
 
 .titleLabel {
   margin-top: 0;
