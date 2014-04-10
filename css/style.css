@@ -136,6 +136,7 @@ textarea:focus, input:focus, button:focus {
   border-radius: 6px;
   border: none;
   background: #60acf0;
+  border: 1px solid #5CA2E0;
 }
 
 .doneButton:hover {
