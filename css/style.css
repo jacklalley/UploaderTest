@@ -39,7 +39,8 @@ textarea:focus, input:focus, button:focus {
 /* Index Page */
 
 .thumbnailsection {
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid #DADADA;
+  background: #F7F7F7;
 }
 
 .thumbnailContainer {
@@ -49,10 +50,12 @@ textarea:focus, input:focus, button:focus {
   padding-top: 14px;
   background: #fff;
   overflow: hidden;
+  background: #F7F7F7;
 }
 
 .thumbnails {
   width: 10000px;
+  background: #F7F7F7;
 }
 
 .thumbnails img {
@@ -125,8 +128,8 @@ textarea:focus, input:focus, button:focus {
 }
 
 .doneButton {
-  width: 700px;
-  margin-left: 197px;
+  width: 1051px;
+  margin-left: 35PX;
   color: white;
   padding: 18px;
   margin-top: 13px;
@@ -224,6 +227,7 @@ textarea:focus, input:focus, button:focus {
   height: 35px;
   border: 1px solid #DADADA; 
   padding: 0 10px;
+  border-radius: 3px;
 }
 
 ::-webkit-input-placeholder {
@@ -246,7 +250,7 @@ textarea:focus, input:focus, button:focus {
 }
 
 .photoForm .caption {
-  height: 93px;
+  height: 115px;
 }
 
 

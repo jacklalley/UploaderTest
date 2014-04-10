@@ -84,5 +84,9 @@ $( function(){
     setTimeout(function() { $('.loadingbar').fadeOut(200); }, 1400);
   });
 
+  $(".doneButton").on("click", function(){
+    alert("In this modal there would be a checkbox to authorise the photos or go back");
+  });
+
 
 });
