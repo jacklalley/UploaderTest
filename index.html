@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Uploader Test</title>
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div class="header">
+    <div class="logo"></div>
+  </div>
+  <div class="uploader">
+    <div class="thumbnailsection">
+      <div class="thumbnailContainer animated slideInLeft">
+        <div class="thumbnails">
+          <div class="contained">
+            <div class="thumbimage thumb1">
+              <img class="thumbnail1" src="images/pic0.jpg" alt="">
+              <div class="deletecircle delete1"><p>-</p></div>
+            </div>
+            <div class="thumbimage thumb2">
+              <img class="thumbnail2 unselected" src="images/pic1.jpg" alt="">
+              <div class="deletecircle delete2"><p>-</p></div>
+            </div>
+            <div class="thumbimage thumb3">
+              <img class="thumbnail3 unselected" src="images/pic2.jpg" alt="">  
+              <div class="deletecircle delete3"><p>-</p></div>
+            </div>
+          </div>
+          <div class="rightarrow hidden">...</div>
+          <div class="leftarrow hidden">...</div>
+          <div class="contained2"></div>
+          <a class="addNew" >+</a>
+        </div>
+      </div>
+    </div>
+    <div class="mainPhoto">
+      <div class="editPhotoSection animated slideInRight">
+        <img class="fullSizePhoto first" src="images/pic0.jpg" alt="">
+        <img class="fullSizePhoto second hidden" src="images/pic1.jpg" alt="">
+        <img class="fullSizePhoto third hidden" src="images/pic2.jpg" alt="">
+        <form class="photoForm">
+          <p class="titleLabel">Title</p><input type="text" placeholder="Give your photo an awesome title" name="title"><br>
+          <p>Caption</p><input type="textarea" placeholder="Write a breif description of your photo" name="caption" class="caption"></br>
+          <p>Price</p><input type="text" placeholder="How much do you want to make for your photo?" name="price"><br>
+          <p>Tags</p><input type="text" placeholder="Give your photo tags so they're easier to find in search" name="tags">
+        </form>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footeritems">
+        <div class="authorise">
+          <p>Authorise</p>
+          <input type="checkbox" name="vehicle" value="Bike">
+        </div>
+        <button class="doneButton">Done</button>
+      </div>
+    
+
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
