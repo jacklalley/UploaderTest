@@ -47,18 +47,21 @@ $( function(){
   $(".delete1").on("click", function(){
     $(".thumbnail1, .delete1").animate({ opacity: 0}, 500);
     $(".rightarrow").addClass("hidden");
+    $(".leftarrow").addClass("hidden");
     $(".thumb1").remove();
   });
         
   $(".delete2").on("click", function(){
     $(".thumbnail2, .delete2").animate({ opacity: 0}, 1000);
     $(".rightarrow").addClass("hidden");
+    $(".leftarrow").addClass("hidden");
     $(".thumb2").remove();
   });
           
   $(".delete3").on("click", function(){
     $(".thumbnail3, .delete3").animate({ opacity: 0}, 1000);
     $(".rightarrow").addClass("hidden");
+    $(".leftarrow").addClass("hidden");
     $(".thumb3").remove();
   });
 
