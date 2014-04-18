@@ -20,15 +20,59 @@ $( function(){
     $(".thumbnail1, .thumbnail2").addClass("unselected");
   });
 
-  $('.photoForm .caption').blur(function() {
+  // form checks
+
+  $('.photoForm .titlefield').blur(function() {
     if( $(this).val() ) {
-      $(".correctOverlay").removeClass("hidden");
+      $(".titleicon").removeClass("hidden");
     }
   });
 
-  $('.photoForm .caption').blur(function() {
+  $('.photoForm .titlefield').blur(function() {
     if( !$(this).val() ) {
-      $(".correctOverlay").addClass("hidden");
+      $(".titleicon").addClass("hidden");
+
+    }
+  });
+
+  $('.photoForm .captionfield').blur(function() {
+    if( $(this).val() ) {
+      $(".captionicon").removeClass("fa-exclamation");
+      $(".captionicon").removeClass("hidden");
+      $(".captionicon").addClass("fa-check");
+      $(".photoForm .captionicon").css("color", "#2ACA77");
+    }
+  });
+
+  $('.photoForm .captionfield').blur(function() {
+    if( !$(this).val() ) {
+      $(".captionicon").removeClass("fa-check");
+      $(".captionicon").addClass("fa-exclamation");
+      $(".photoForm .captionicon").css("color", "red");
+    }
+  });
+
+  $('.photoForm .pricefield').blur(function() {
+    if( $(this).val() ) {
+      $(".priceicon").removeClass("hidden animated");
+    }
+  });
+
+  $('.photoForm .pricefield').blur(function() {
+    if( !$(this).val() ) {
+      $(".priceicon").addClass("hidden");
+    }
+  });
+
+  $('.photoForm .tagsfield').blur(function() {
+    if( $(this).val() ) {
+      $(".tagsicon").removeClass("hidden animated");
+    }
+  });
+
+  $('.photoForm .tagsfield').blur(function() {
+    if( !$(this).val() ) {
+      $(".tagsicon").addClass("hidden");
     }
   });
 
